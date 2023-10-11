@@ -238,7 +238,7 @@ while True:
             i.dob = new_dob
       elif ch3 == '4':
         emp_id = input("Enter Employee ID to update salary: ")
-        new_salary = input("Enter the DOB: ")
+        new_salary = input("Enter the salary: ")
         for i in empList:
           if i.emp_id == emp_id:
             i.salary = new_salary
